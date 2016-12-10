@@ -12,3 +12,16 @@ This is my first real commit.
 * I ran a ruby file with `ruby hello.rb`
 * I used `puts` and `gets` and learned about `String#chop`
 * I learned to assign a value to a variable
+* *git*
+  * Ajouter un fichier: `git add filename.rb`
+  * Ajouter un snapshot dans le temps:
+    `git commit -m "Message de log git" nom_de_fichier_1.rb nom_de_fichier_2.rb
+    # ou
+    git commit -am "Message de log git"``
+* *ruby*
+    * Ouvrir une console interactive ruby:`irb`
+    * Créer un fichier de la ligne de commande: `touch filename.rb`
+    * Définir une methode:
+    `def majusculer(argument)
+      return argument.upcase
+    end`
