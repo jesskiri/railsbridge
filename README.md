@@ -17,7 +17,8 @@ This is my first real commit.
   * Ajouter un snapshot dans le temps:
     `git commit -m "Message de log git" nom_de_fichier_1.rb nom_de_fichier_2.rb
     # ou
-    git commit -am "Message de log git"``
+    git commit -am "Message de log git"`
+  * Sync sur GitHub `git push -u origin master`
 * *ruby*
     * Ouvrir une console interactive ruby:`irb`
     * Créer un fichier de la ligne de commande: `touch filename.rb`
