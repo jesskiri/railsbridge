@@ -1,8 +1,6 @@
 puts "What is your name?"
-name = gets.strip
-if name == "Darth Vader"
-# or "Jess" or "Gary"
-#Comment je peux mettre plusieurs conditons?
+name = gets.strip.capitalize
+if name == "Fanny" or name == "Martin"
   puts "Go away, " + name + "!"
 else
   puts "Hello, my friend"
